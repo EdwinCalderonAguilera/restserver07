@@ -1,7 +1,7 @@
 {
   "name": "07-restserver",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "recuerden ejecutar ```npm install``` para reconstruir modulos.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
@@ -18,7 +18,16 @@
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
     "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
     "mongoose": "^6.0.12",
     "yargs": "^17.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwinCalderonAguilera/restserver07.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdwinCalderonAguilera/restserver07/issues"
+  },
+  "homepage": "https://github.com/EdwinCalderonAguilera/restserver07#readme"
 }
